@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JSPMission">
+        <property name="context-root" value="JSPMission"/>
+        <property name="java-output-path" value="/JSPMission/build/classes"/>
+    </wb-module>
+</project-modules>

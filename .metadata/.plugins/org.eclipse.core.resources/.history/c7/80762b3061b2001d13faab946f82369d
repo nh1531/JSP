@@ -1,0 +1,13 @@
+<!-- 앞서 작성해둔 gugudan1.jsp, gugudan2.jsp를 호출하도록 form 태그를 이용한 gugudan3.jsp -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구구단 3</title>
+</head>
+<body>
+
+</body>
+</html>
