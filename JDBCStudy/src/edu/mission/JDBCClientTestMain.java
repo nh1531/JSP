@@ -9,10 +9,10 @@ public class JDBCClientTestMain {
 		jd1.StudyStatement(1);
 		jd1.StudyStatement(2);
 		
-//		JDBCDatabase jd2 = new JDBCDatabaseMySQL();
-//
-//		jd2.StudyStatement(1);
-//		jd2.StudyStatement(2);
+		JDBCDatabase jd2 = new JDBCDatabaseMySQL("jdbc:mysql://localhost:3306/musthave", "musthave", "tiger");
+
+		jd2.StudyStatement(1);
+		jd2.StudyStatement(2);
 		
 	}
 
