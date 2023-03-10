@@ -26,6 +26,21 @@
   	<param-name>MySqlpwd</param-name>
   	<param-value>tiger</param-value>
   </context-param>
-  
+  <session-config>
+  	<session-timeout>20</session-timeout>
+  </session-config>
+  <!-- 한글 인코딩 문제 해결 -->
+  <filter>
+  	<filter-name>SetCharEncoding</filter-name>
+  	<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>utf-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>SetCharEncoding</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
   
 </web-app>
