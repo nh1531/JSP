@@ -12,7 +12,7 @@ public class BoardDAO extends JDBConnect {
 	public BoardDAO(ServletContext application) {
 		super(application);
 	}
-	
+	/*
 	public List<BoardDTO> selectList(Map<String, Object> map){
 		// 검색 조건에 맞는 게시물 목록을 반환합니다(페이징 기능 지원).
 		List<BoardDTO> bbs = new Vector<BoardDTO>(); // 결과(게시물 목록)를 담을 변수
@@ -52,9 +52,14 @@ public class BoardDAO extends JDBConnect {
 				bbs.add(dto);
 			}
 		}
-		
+		catch (Exception e) {
+			System.out.println("게시물 조회 중 예외 발생");
+			e.printStackTrace();
+		}
+		return bbs;
 		
 	}
+	*/
 	
 	// 지정한 게시물을 삭제합니다
 	public int deletePost(BoardDTO dto) {
@@ -203,11 +208,12 @@ public class BoardDAO extends JDBConnect {
 		return totalCount;
 	}
 	
+	
 	//검색 조건에 맞는 게시물 목록을 반환합니다.
 	public List<BoardDTO> selectList(Map<String, Object> map){
 		List<BoardDTO> bbs = new Vector<BoardDTO>(); // 결과(게시물 목록)를 담을 변수
 		String query = "SELECT * FROM board";
-		if (map.get("searchWord") != null) {
+		if (map != null && map.get("searchWord") != null) {
 			query += " WHERE " + map.get("searchField") + " "
 					+ "LIKE '%" + map.get("searchWord") + "%' ";
 		}
@@ -238,5 +244,6 @@ public class BoardDAO extends JDBConnect {
 		
 		return bbs;
 	}
+	
 
 }
