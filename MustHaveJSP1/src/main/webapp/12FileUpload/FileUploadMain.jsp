@@ -27,7 +27,7 @@
 <body>
 	<h3>파일 업로드</h3>
 	<span style="color: red;">${ errorMessage }</span>
-	<form name="fileForm" method="post" enctype="mulipart/form-data"
+	<form name="fileForm" method="post" enctype="multipart/form-data"
 			action="UploadProcess.jsp" onsubmit="return validateForm(this);">
 		작성자 : <input type="text" name="name" value="머스트해브" /><br/>
 		제목 : <input type="text" name="title" /><br/>

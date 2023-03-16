@@ -42,5 +42,15 @@
   	<filter-name>SetCharEncoding</filter-name>
   	<url-pattern>/*</url-pattern>
   </filter-mapping>
+  <!-- 서블릿 등록 -->
+  <servlet>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<servlet-class>servlet.HelloServlet</servlet-class>
+  </servlet>
+  <!-- 서블릿과 요청명 매핑 -->
+  <servlet-mapping>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<url-pattern>/13Servlet/HelloServlet.do</url-pattern>
+  </servlet-mapping>
   
 </web-app>

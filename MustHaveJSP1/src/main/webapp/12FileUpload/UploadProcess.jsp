@@ -1,3 +1,5 @@
+<%@page import="java.io.File"%>
+<%@page import="java.util.Date"%>
 <%@page import="fileupload.MyfileDAO"%>
 <%@page import="fileupload.MyfileDTO"%>
 <%@page import="java.text.SimpleDateFormat"%>
@@ -15,7 +17,7 @@ String encoding = "UTF-8";
 
 try {
 	// 1. MutipartRequest 객체 생성
-	MutipartRequest mr = new MultipartRequest(request, saveDirectory, maxPostSize, encoding);
+	MultipartRequest mr = new MultipartRequest(request, saveDirectory, maxPostSize, encoding);
 	
 	// 2. 새로운 파일명 생성
 	String fileName = mr.getFilesystemName("attachedFile");
