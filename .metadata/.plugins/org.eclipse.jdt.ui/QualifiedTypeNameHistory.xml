@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="javax.swing.border.Border"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -25,7 +24,6 @@
     <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
     <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.GeoTIFFTagSet"/>
     <fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
-    <fullyQualifiedTypeName name="utils.JSFunction"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="org.apache.jasper.compiler.NewlineReductionServletWriter"/>
@@ -34,18 +32,24 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="javax.management.relation.RelationServiceNotRegisteredException"/>
     <fullyQualifiedTypeName name="org.apache.el.parser.AstDotSuffix"/>
-    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDTO"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="fileupload.FileUtil"/>
-    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDAO"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="org.apache.catalina.filters.RestCsrfPreventionFilter"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDAO"/>
+    <fullyQualifiedTypeName name="model2.mvcboard.MVCBoardDTO"/>
+    <fullyQualifiedTypeName name="fileupload.FileUtil"/>
+    <fullyQualifiedTypeName name="utils.JSFunction"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="edu.pnu.study.operator.MyOperator"/>
+    <fullyQualifiedTypeName name="java.awt.RenderingHints.Key"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="edu.pnu.study.operator.MyOperatorContainer_hashmap"/>
 </qualifiedTypeNameHistroy>
